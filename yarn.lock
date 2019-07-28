@@ -4805,7 +4805,7 @@ log-symbols@^2.2.0:
   dependencies:
     chalk "^2.0.1"
 
-loglevel@^1.6.3:
+loglevel@^1.4.1, loglevel@^1.6.3:
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.3.tgz#77f2eb64be55a404c9fd04ad16d57c1d6d6b1280"
   integrity sha512-LoEDv5pgpvWgPF4kNYuIp0qqSJVWak/dML0RY74xlzMZiT9w77teNAwKYKWBTYjlokMirg+o3jBwp+vlLrcfAA==
@@ -6884,6 +6884,16 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
+sigplot@^2.0.0-rc14:
+  version "2.0.0-rc14"
+  resolved "https://registry.yarnpkg.com/sigplot/-/sigplot-2.0.0-rc14.tgz#4740c7fd9bc4131c0eb9c199f6835be2c6fc7fa6"
+  integrity sha512-WXbGASP+UHFlcWYlsT8nLjD1MlwEKsS3JJCO+aDidbzu7aNR/WtB/SjhyCaCqEd3WbvskDh5YUk8F86eh8Pv5Q==
+  dependencies:
+    loglevel "^1.4.1"
+    spin "0.0.1"
+    tinycolor2 "^1.4.1"
+    travis "^0.1.1"
+
 simple-swizzle@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
@@ -7061,6 +7071,11 @@ spdy@^4.0.0:
     http-deceiver "^1.2.7"
     select-hose "^2.0.0"
     spdy-transport "^3.0.0"
+
+spin@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/spin/-/spin-0.0.1.tgz#246b756469c63b1f62f912f925b7eb2490e38cc6"
+  integrity sha1-JGt1ZGnGOx9i+RL5JbfrJJDjjMY=
 
 split-string@^3.0.1, split-string@^3.0.2:
   version "3.1.0"
@@ -7438,6 +7453,11 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tinycolor2@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.4.1.tgz#f4fad333447bc0b07d4dc8e9209d8f39a8ac77e8"
+  integrity sha1-9PrTM0R7wLB9TcjpIJ2POaisd+g=
+
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -7505,6 +7525,11 @@ tough-cookie@~2.4.3:
   dependencies:
     psl "^1.1.24"
     punycode "^1.4.1"
+
+travis@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/travis/-/travis-0.1.1.tgz#80fe1c36f6f3b739fce07e6063838ce436357d60"
+  integrity sha1-gP4cNvbztzn84H5gY4OM5DY1fWA=
 
 trim-right@^1.0.1:
   version "1.0.1"
